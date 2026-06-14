@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="id"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Graduation 🌷</title><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="welcomeScreen">
+
+    <h1>🌷 Happy Graduation 🌷</h1>
+
+    <p>
+        Untuk seseorang yang spesial💖💖
+    </p>
+
+    <button onclick="openGift()">
+        💌 Buka Hadiah
+    </button>
+
+</div>
+
+    <div id="sakura-container"></div>
+    
+    <section class="hero">
+
+    <h3>Untuk seseorang yang spesial 🌷</h3>
+
+    <h1>Happy Graduation, My Princess</h1>
+    <p>
+        Sebuah hadiah kecil untuk merayakan pencapaian besar.
+    </p>
+
+    <button onclick="scrollToGallery()">
+        Buka Kenangan ❤️
+    </button>
+
+</section>
+<audio id="bgMusic" loop>
+    <source src="music/graduation.mp3">
+</audio>
+
+<section id="gallery" class="gallery reveal">
+
+    <h2>Galeri Kenangan 📸</h2>
+
+    <div class="photos">
+
+        <img src="images/foto1.jpg">
+        <img src="images/foto2.jpg">
+        <img src="images/foto3.jpg">
+        <img src="images/foto4.jpg">
+
+    </div>
+
+</section>
+
+<section class="letter reveal">
+
+    <div class="envelope" id="envelope" onclick="openLetter()">
+
+        <div class="flap"></div>
+
+        <div class="cover">
+            💌
+        </div>
+
+    </div>
+
+    <div class="letterContent" id="letterContent">
+    <p id="typingText"></p>
+</div>
+
+</section>
+
+<section class="ending reveal">
+
+    <h1>See You In The Next Chapter 🌷</h1>
+
+    <p>
+        Semoga semua impianmu satu per satu menjadi kenyataan.
+    </p>
+
+</section>
+
+<button id="topBtn" onclick="scrollToTop()">
+ ⬆️
+</button>
+
+<div id="lightbox" class="lightbox"
+onclick="closeLightbox()">
+    <img id="lightbox-img">
+
+</div>
+
+<button id="musicBtn" onclick="toggleMusic()">
+    🎵 Musik ON
+</button>
+
+<script src="script.js"></script>
+
+</body></html>
